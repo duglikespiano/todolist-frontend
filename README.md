@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# todolist_frontend(kr)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##### [Click here for English version](README_EN.md)
 
-## Available Scripts
+##### [日本語バージョンはこちらをクリックして下さい](README_JP.md)
 
-In the project directory, you can run:
+## - 목차 -
 
-### `npm start`
+1. 개요
+2. 프로젝트목표
+3. 기능시연
+4. 차후구현예정기능
+5. 개선필요내용
+   </br>
+   </br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. 개요
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 프로젝트명 : todolist_frontend
+- 기간 : 2023.01.09 - 2023. 01. 15(7일)
+- 인원 : 1인
+- 기술스택 : </br>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"> <img src="https://img.shields.io/badge/PostCSS-DD3A0A?style=for-the-badge&logo=PostCSS&logoColor=white"> <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white"> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white">
+  </br>
+  </br>
 
-### `npm test`
+### 2. 프로젝트목표
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. 간단한 CRUD기능을 가진 todolist 페이지의 제작
+2. 백엔드서버와 연동 가능하도록 구현 할 것
+3. 사용자 편의성을 고려한 기능을 추가 할 것
+   </br>
+   </br>
 
-### `npm run build`
+### 3. 기능시연 </br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. todoitem 추가</br>
+   <img src='./ref/todo_add.gif' width=300px>
+2. todoitem 불러오기</br>
+   <img src='./ref/todo_get.gif' width=300px>
+3. todoitem 수정</br>
+   <img src='./ref/todo_modify.gif' width=300px>
+4. todoitem 삭제</br>
+   <img src='./ref/todo_remove.gif' width=300px>
+5. cetegory 이름수정</br>
+   <img src='./ref/category_namechange.gif' width=300px>
+6. cetegory 전체삭제</br>
+   <img src='./ref/todo_removeall.gif' width=300px>
+   </br>
+   </br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 4. 차후구현예정기능
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. 페이지를 components로 분할 하기
+2. 한 페이지에 2개 이상의 todolist를 나타내기
+   </br>
+   </br>
 
-### `npm run eject`
+### 5. 개선필요내용
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. 특정 횟수 이상 API 요청 시, API 요청이 전송되지 않는 현상 개선
+2. 전체적인 리팩토링

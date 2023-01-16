@@ -32,7 +32,7 @@ export default function TodoCard() {
 		event.preventDefault();
 
 		if (document.getElementById(inputTodo).value.trim() === '') {
-			alert('Todo can not be empty');
+			alert('Input proper text');
 			throw new Error();
 		}
 
@@ -59,7 +59,7 @@ export default function TodoCard() {
 
 	function handleModifyTodo(i) {
 		if (document.getElementById(modifyTodo).value.trim() === '') {
-			alert('Todo can not be empty');
+			alert('Input proper text');
 			throw new Error();
 		}
 
@@ -80,7 +80,7 @@ export default function TodoCard() {
 	}
 
 	function modifyCategoryName() {
-		const modifyCategoryName = prompt('Input to modify category name');
+		const modifyCategoryName = prompt('Input to modify category name').trim();
 		if (modifyCategoryName === '' || modifyCategoryName === null) {
 			alert('Input proper text');
 			throw new Error();
@@ -166,7 +166,7 @@ export default function TodoCard() {
 		fetch('http://localhost:8000/category', {
 			method: 'DELETE',
 			headers: {
-				'Content-Type': 'Application/Json',
+				'Content-Type': 'application/json',
 			},
 			body: JSON.stringify(data),
 		})
