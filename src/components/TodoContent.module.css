@@ -1,0 +1,121 @@
+#mainContentBody {
+	width: 350px;
+	margin: auto;
+	padding: 0px 0px 0px 20px;
+}
+
+.categoryNameBox {
+	font-size: 1.5rem;
+	padding-top: 15px;
+	margin: 0px;
+}
+
+.categoryName {
+	display: inline-block;
+	width: 250px;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-bottom: 7.5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.imgCategoryModifyModalBox {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	padding-left: 50px;
+	padding-bottom: 10px;
+	cursor: pointer;
+}
+
+.imgCategoryModifyModal {
+	position: relative;
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+}
+
+.categoryFunctionButtonModal {
+	display: inline-block;
+	position: absolute;
+	left: -55px;
+	top: 15px;
+	width: 105px;
+}
+.categoryFunctionButton {
+	width: 100px;
+	height: 30px;
+	margin: auto;
+}
+
+#inputTodo {
+	vertical-align: middle;
+	width: 230px;
+	height: 27px;
+	padding: 0 0 0 20px;
+	border: 1.5px solid black;
+}
+
+#buttonTodoAdd {
+	background-color: rgb(142, 253, 253);
+	vertical-align: middle;
+	width: 80px;
+	height: 30px;
+}
+
+#buttonTodoModify {
+	background-color: rgb(255, 0, 166);
+	vertical-align: middle;
+	width: 80px;
+	height: 30px;
+}
+
+#modifyTodo {
+	vertical-align: middle;
+	width: 230px;
+	height: 27px;
+	padding: 0 0 0 20px;
+	border: 1.5px solid black;
+}
+
+#buttonConfirmTodoModify {
+	background-color: rgb(238, 193, 254);
+	vertical-align: middle;
+	width: 80px;
+	height: 30px;
+}
+
+.toDoText {
+	display: inline-block;
+	vertical-align: middle;
+	width: 140px;
+	height: 24px;
+	background-color: rgb(216, 253, 168);
+	margin: 0px;
+	padding: 3px 10px 0 20px;
+	border: 1.5px solid black;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.buttonTodoModify {
+	vertical-align: middle;
+	width: 80px;
+	height: 30px;
+	background-color: rgb(255, 201, 109);
+	margin: 0px;
+	padding: 0px;
+}
+
+.buttonTodoRemove {
+	vertical-align: middle;
+	width: 80px;
+	height: 30px;
+	background-color: rgb(252, 223, 94);
+	margin: 0px;
+	padding: 0px;
+}
